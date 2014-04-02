@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+
+<link rel="stylesheet" type="text/css" href="css/map.css">
+
+
+
+</head>
+<body>
+
+<div id="controls"></div>
+<div id="inst"><p><small>Hover over the states to see details. Click on a state to see county details. Click on background to zoom out.</small></p></div>
+<div id="legend">  </div>
+
+
+<section id="vis-container">
+<section id="wage_map"></section>
+
+<section id="display">
+
+
+
+  <h3 id="title"></h3>
+  <h4 id="cnt">Hover over state to see details</h4>
+
+
+
+<table>
+
+  <tr>
+    <th>Item</th>
+    <th>Monthy</th>
+    <th>Yearly</th>
+
+
+  </tr>
+
+  <tr id='food'>
+
+    <td>Food </td>
+    <td class="monthly"></td>
+    <td class="yearly"></td>
+
+  </tr>
+
+
+ <tr id='child'>
+
+    <td>Child Care </td>
+    <td class="monthly"></td>
+    <td class="yearly"></td>
+
+  </tr>
+
+
+  <tr id='housing'>
+
+    <td>Housing </td>
+    <td class="monthly"></td>
+    <td class="yearly"></td>
+
+  </tr>
+
+  <tr id='trans'>
+
+    <td>Transportation </td>
+    <td class="monthly"></td>
+    <td class="yearly"></td>
+
+  </tr>
+
+  <tr id='medical'>
+
+    <td>Medical </td>
+    <td class="monthly"></td>
+    <td class="yearly"></td>
+
+  </tr>
+
+
+  <tr id='other'>
+
+    <td>Other </td>
+    <td class="monthly"></td>
+    <td class="yearly"></td>
+
+  </tr>
+
+  <tr id='total'>
+
+    <td>Total </td>
+    <td class="monthly"></td>
+    <td class="yearly"></td>
+
+  </tr>
+
+ 
+
+ <tr id='income'>
+
+    <td>Annual Income </td>
+    <td class="monthly"></td>
+    <td class="yearly"></td>
+
+  </tr>
+
+  <tr id='diff'>
+
+    <td>Difference </td>
+    <td class="monthly"></td>
+    <td class="yearly"></td>
+
+  </tr>
+
+
+
+</table>
+
+</section>
+
+<section id="data-notes">
+ <p> Data Note:<br>
+
+ State and County data extracted between 01/15/ 2014 and 02/04/ 2014. Details of the research behind the calculator are available <a href="http://livingwage.mit.edu/">here</a>.
+
+
+The MIT data for a 2 adult and 2 child family assumes a single working adult. The data was adjusted to double the yearly income and include childcare cost for 2 children to make it work for a family of four with 2 working adults and 2 children.</p>
+
+<p>Visualization built with <a href="http://d3js.org/">d3.js</a></p>
+
+
+</section>
+
+
+<script src="js/d3.v3.min.js"></script>
+<script src="js/queue.v1.min.js"></script>
+<script src="js/topojson.v1.min.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/map.js"></script>
+
+
+</body>
+
+</html>

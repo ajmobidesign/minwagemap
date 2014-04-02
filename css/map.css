@@ -1,0 +1,193 @@
+body{
+  font-family: 'Alef', sans-serif;
+}
+
+
+
+
+#controls{
+  width: 95%;
+  text-align: center;
+  padding:5px 0px;
+   margin:0 auto;
+  /*background: gray;*/
+}
+
+#legend{
+   width: 95%;
+  height: 55px;
+  text-align: center;
+  padding:5px 0px;
+   margin:0 auto;
+  /*background: pink;*/
+
+}
+
+#inst{
+   width: 95%;
+    margin:0 auto;
+    text-align: center;
+}
+
+
+
+#data-notes{
+  width: 95%;
+   margin:0 auto;
+   font-size: .75rem;
+   color:#888;
+   padding:5px 0px;
+
+}
+
+button{
+  padding: 10px;
+  text-align: center;
+  background: #fdfdfd;
+  border-radius: 5px;
+  border: 1px solid #888;
+  cursor: pointer;
+  color:#888;
+}
+
+
+button[disabled]{
+  background: #333;
+  color:#fff;
+  
+}
+
+.status-group:nth-of-type(3),
+.wage-group:nth-of-type(1){
+  margin-right: 0px;
+  margin-left: 15px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-right:0px;
+}
+
+
+.status-group:nth-of-type(4),
+.wage-group:nth-of-type(2){
+  margin-right: 15px;
+  margin-left: 0px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+
+#vis-container{
+  position: relative;
+  width: 95%;
+  margin:0 auto;
+ 
+}
+
+.counties {
+  stroke-width:1px;
+   stroke: #fff;
+  stroke-linejoin: round;
+}
+
+.states {
+  cursor: pointer;
+  stroke: #fff;
+  stroke-linejoin: round;
+}
+
+
+rect{
+  fill: #fff;
+}
+
+.x-axis path{
+
+   fill: none;
+  stroke: #fff;
+  shape-rendering: crispEdges;
+
+}
+
+
+#wage_map{
+  
+  float: left;
+}
+
+#display{
+  width:265px;
+ 
+  float: right;
+ 
+  padding-left: 10px;
+  
+  font-family: 'Alef', sans-serif;
+
+}
+
+
+#display table{
+  font-size: .85rem;
+  border-collapse: collapse;
+  display: none;
+  
+}
+
+
+
+#diplay table tr th,
+#display table tr td{
+  text-align: right;
+
+}
+
+th:nth-of-type(1),
+td:nth-of-type(1),
+th:nth-of-type(2),
+td:nth-of-type(2){
+  padding-right: 25px;
+
+}
+
+
+#display table tr th:first-child,
+#display table tr td:first-child{
+  text-align: left;
+
+}
+
+table #total td{
+  padding-top: 8px;
+  border-top:1px solid #F00C0C;
+}
+
+table #diff{
+  font-size: .95rem;
+  background: #f8f8f8;
+}
+
+table #diff .yearly{
+  
+  font-weight:900;
+}
+
+#svglegend{
+  /*border:1px solid #333;*/
+}
+
+.tooltip{
+  
+  position: absolute;
+  background:#fff;
+  padding: 2px;
+  box-shadow: 1px 1px 2px #333;
+}
+
+
+#data-notes{
+	clear:both;
+}
+
+
+
+
