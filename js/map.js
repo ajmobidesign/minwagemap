@@ -842,7 +842,7 @@ function reSize(){
 
       
       mainMap
-      .transition().duration(750)
+      .transition().duration(200)
       .attr("transform", "scale(" + scaleFactor + ")"); 
       }
       
